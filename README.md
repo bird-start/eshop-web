@@ -1,5 +1,12 @@
 # eshop-test
 
+### 下载
+
+```
+git clone git@github.com:bird-start/eshop-test.git
+
+```
+
 ### 启动
 
 ```
