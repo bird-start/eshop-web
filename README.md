@@ -17,6 +17,7 @@ npm run start
 
 ### 前端参考文档
 
+- webpack中文文档 [http://www.css88.com/doc/webpack2/](http://www.css88.com/doc/webpack2/)
 - react-router [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router)
 - Redux中文教程 [http://www.redux.org.cn/](http://www.redux.org.cn/)
 
