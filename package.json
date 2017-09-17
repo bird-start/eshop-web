@@ -19,9 +19,9 @@
   "author": "xiaoqihu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/huxiaoqi567/react-prj/issues"
+    "url": "https://github.com/bird-start/eshop-test/issues"
   },
-  "homepage": "https://github.com/huxiaoqi567/react-prj#readme",
+  "homepage": "https://github.com/bird-start/eshop-test#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "react": "^15.6.1",
