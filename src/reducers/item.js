@@ -17,13 +17,12 @@ let items = [{
 export default function showAllItems(state = [], action) {
   switch (action.type) {
     case actionTypes.SHOW_ALL_ITEMS:
-      //请求数据
       return Object.assign({}, state, {
-        items: items
+        items
       });
       break;
     default:
       return state;
-    break;
+      break;
   }
 }

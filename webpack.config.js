@@ -3,6 +3,7 @@
 
 module.exports = {
   entry: {
+    'whatwg-fetch':'whatwg-fetch',
     index: './src/index.js'
   },
   output: {
