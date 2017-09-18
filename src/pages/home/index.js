@@ -1,28 +1,20 @@
 import React from 'react';
-import Item from '../../mods/item';
+import {createStore} from 'redux'
+import {Provider,connect} from 'react-redux'
+import reducer from '../../reducers';
+import App from '../app';
 
-const items = [{
-  id: 1,
-  name: 'nike T-shirt',
-  price: 100
-}, {
-  id: 2,
-  name: 'nike T-shirt',
-  price: 100
-}, {
-  id: 3,
-  name: 'nike T-shirt',
-  price: 100
-}];
+let store = createStore(reducer);
 
 export default class Home extends React.Component {
+  componentDidMount() {
+
+  }
+
   render() {
-    return <div>
-      <h1>this is home page</h1>
-      {items.map((item, index) => {
-        return <Item key={index} data={item}/>
-      })}
-    </div>;
+    return (<Provider store={store}>
+      <App />
+    </Provider>)
   }
 }
 
